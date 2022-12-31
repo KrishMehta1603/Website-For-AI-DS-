@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+           /*---------------- Student or Professor --------------*/
+
+.header{
+	min-height: 85vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,28,0.7),rgba(4,9,28,0.7)),url(images/cm.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 2% 2%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 55px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 3px 13px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 3px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
+.cbtn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	boder: 1px;
+	border-style: solid;
+	border-color: #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.cbtn:hover{
+	border: 1px;
+	border-style: solid;
+	border-color: #f44336;
+	background: #f44336;
+	transition: 0.5s;
+}
+
+
+
+.hero2{
+	height: 85%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/login2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.identity{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: -1% auto;
+	background: #fff;
+	padding: 0px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.click{
+	width: 280px;
+	padding: 70px 50px;*
+	
+}
+.submit-btn2{
+	width: 80%;
+	padding: 11px 50px;
+	cursor: pointer;
+	display: block;
+	margin: 20% auto;
+	background: linear-gradient(to right, #ff105f,#ff0d06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.click2{
+	width: 280px;
+	padding: 0px 50px;
+}
+.submit-btn3{
+	width: 80%;
+	padding: 11px 50px;
+	cursor: pointer;
+	display: block;
+	margin: 10% auto;
+	background: linear-gradient(to right, #ff105f,#ff0d06);
+	border: 0;
+	outline: none;
+	text-decoration: none;
+	border-radius: 30px;
+}
+.foter h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	padding-top: 700px;
+	text-align: center;
+	font-weight: 600;
+}
+.foter p{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: 600;
+}
+                         /*---------------- LOGIN --------------*/
+
+.hero{
+	height: 85%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/login2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: -1% auto;
+	background: #fff;
+	padding: 0px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.button-box{
+	width: 230px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#ff105f,#ff0d06);
+	border-radius: 30px;
+	transition: 0.5s;
+}
+.input-group{
+	top: 100px;
+	width: 280px;
+	position: absolute;
+	transition: 0.5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1 solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 11% auto;
+	background: linear-gradient(to right, #ff105f,#ff0d06);
+	border: 0;
+	outline: none;
+	border-radius: 0px;
+}
+.check-box{
+	margin: 40px 10px 40px 0;
+}
+.span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+
+#login{
+	left: 450px;
+}
+#regiter{
+	left: 50px;
+}
+.slidershow{
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,257%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.foot h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	padding-top: 700px;
+	text-align: center;
+	font-weight: 600;
+}
+.foot p{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
